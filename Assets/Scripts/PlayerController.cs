@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         float horizontalInput = Input.GetAxisRaw("Horizontal");
-        bool jumpInput = Input.GetKeyDown(KeyCode.Z);
+        bool jumpInput = Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Z);
             
         _playerMover.MoveHorizontally(horizontalInput);
         _playerMover.TryJumping(jumpInput);
