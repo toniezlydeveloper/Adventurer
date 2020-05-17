@@ -8,8 +8,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AnimationEndObserver.cs" t="Include" />
+          <e p="AnimationID.cs" t="Include" />
           <e p="AnimatorCommunicator.cs" t="Include" />
+          <e p="Attacker.cs" t="Include" />
           <e p="CollisionChecker.cs" t="Include" />
+          <e p="IAnimationEndListener.cs" t="Include" />
           <e p="JumpModifier.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerMover.cs" t="Include" />
